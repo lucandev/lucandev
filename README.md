@@ -103,7 +103,7 @@ A featured build from this profile.
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 <p align="center">
-  <img src="./assets/img/heatmap-dark.svg" alt="lucandev heatmap visual" />
+  <img src="./assets/img/heatmap-avatar-dark.svg" alt="lucandev heatmap visual" />
 </p>
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>

@@ -49,8 +49,8 @@ jobs:
           fetch_clean "https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1&mode=dark" "assets/img/stats-dark.svg"
 
           # 5. Contribution Heatmap
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=light" "assets/img/heatmap-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=dark" "assets/img/heatmap-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=light&style=snake&v=cinematic-snake-1" "assets/img/heatmap-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=dark&style=snake&v=cinematic-snake-1" "assets/img/heatmap-dark.svg"
 
           # 6. Heatmap Visual With Avatar
           fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=light&style=snake&v=cinematic-snake-1" "assets/img/heatmap-avatar-light.svg"

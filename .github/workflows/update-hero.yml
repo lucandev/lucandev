@@ -1,0 +1,25 @@
+name: Update Hero SVG
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Chạy mỗi 12 tiếng
+  workflow_dispatch: # Cho phép bấm nút test thủ công
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and clean SVG
+        run: |
+          URL="https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F160128128%3Fu%3Db3cca2a0bb725eeb63c470bf7c2b81e3489e2e21%26v%3D4&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=light"
+          curl -s "$URL" | sed 's|<text[^>]*>gitskins\.com</text>||g' > hero.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add hero.svg
+          git diff --staged --quiet || git commit -m "chore: update hero stats"
+          git push

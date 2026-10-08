@@ -53,8 +53,8 @@ jobs:
           fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=dark" "assets/img/heatmap-dark.svg"
 
           # 6. Heatmap Visual With Avatar
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=light" "assets/img/heatmap-avatar-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=dark" "assets/img/heatmap-avatar-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=light&style=snake&v=cinematic-snake-1" "assets/img/heatmap-avatar-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=dark&style=snake&v=cinematic-snake-1" "assets/img/heatmap-avatar-dark.svg"
 
       - name: Commit and Push Changes
         run: |

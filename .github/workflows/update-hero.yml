@@ -2,8 +2,12 @@ name: Update Hero SVG
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Chạy mỗi 12 tiếng
-  workflow_dispatch: # Cho phép bấm nút test thủ công
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+# Thêm quyền ghi cho GITHUB_TOKEN tại đây
+permissions:
+  contents: write
 
 jobs:
   update-svg:

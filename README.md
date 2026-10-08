@@ -92,7 +92,12 @@ A featured build from this profile.
 
 <div align="center">
 
-<img src="./assets/img/stats-dark.svg" width="100%" alt="GitHub stats" />
+<picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/img/stats-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/img/stats-dark.svg" />
+    <img src="./assets/img/stats-dark.svg" />
+</picture>
+<!-- <img src="./assets/img/stats-dark.svg" width="100%" alt="GitHub stats" /> -->
 
 <br/>
 
@@ -103,7 +108,12 @@ A featured build from this profile.
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 <p align="center">
-  <img src="./assets/img/heatmap-avatar-dark.svg" alt="lucandev heatmap visual" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/img/heatmap-avatar-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/img/heatmap-avatar-dark.svg" />
+    <img src="./assets/img/heatmap-avatar-dark.svg" />
+  </picture>
+  <!-- <img src="./assets/img/heatmap-avatar-dark.svg" alt="lucandev heatmap visual" /> -->
 </p>
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>

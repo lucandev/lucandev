@@ -26,8 +26,9 @@
 <picture>
   <!-- <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F160128128%3Fu%3Db3cca2a0bb725eeb63c470bf7c2b81e3489e2e21%26v%3D4&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=light" />
   <img src="https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F160128128%3Fu%3Db3cca2a0bb725eeb63c470bf7c2b81e3489e2e21%26v%3D4&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=dark" width="100%" alt="Luca Nguyễn animated Living Identity portrait and ASCII name" /> -->
-  <source media="(prefers-color-scheme: light)" srcset="./hero.svg" />
-  <img src="./hero.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/img/living-hero-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/img/living-hero-dark.svg" />
+  <img src="./assets/img/living-hero-dark.svg" />
 </picture>
 <p><strong>Product-minded developer</strong> · the public internet</p>
 <p>Building useful things and sharing the work in public.</p>
@@ -91,18 +92,18 @@ A featured build from this profile.
 
 <div align="center">
 
-<img src="https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1" width="100%" alt="GitHub stats" />
+<img src="./assets/img/stats-dark.svg" width="100%" alt="GitHub stats" />
 
 <br/>
 
-<img src="https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura" width="100%" alt="Contribution activity" />
+<!-- <img src="./assets/img/heatmap-dark.svg" width="100%" alt="Contribution activity" /> -->
 
 </div>
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F160128128%3Fu%3Db3cca2a0bb725eeb63c470bf7c2b81e3489e2e21%26v%3D4" alt="lucandev heatmap visual" />
+  <img src="./assets/img/heatmap-dark.svg" alt="lucandev heatmap visual" />
 </p>
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>

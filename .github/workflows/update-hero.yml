@@ -33,28 +33,28 @@ jobs:
           AVATAR="https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F160128128%3Fu%3Db3cca2a0bb725eeb63c470bf7c2b81e3489e2e21%26v%3D4"
 
           # 1. Top Banner (Hero Reference)
-          fetch_clean "https://www.gitskins.com/api/readme-reference/hero?username=lucandev&theme=neon&role=Product-minded%20developer&location=Building%20from%20the%20open%20web&v=readme-reference-2&mode=light" "assets/img/banner-light.svg"
-          fetch_clean "https://www.gitskins.com/api/readme-reference/hero?username=lucandev&theme=neon&role=Product-minded%20developer&location=Building%20from%20the%20open%20web&v=readme-reference-2&mode=dark" "assets/img/banner-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/readme-reference/hero?username=lucandev&theme=neon&role=Product-minded%20developer&location=Building%20from%20the%20open%20web&v=readme-reference-2&mode=light&pv=PJWvmY2LTIBKY-FJ" "assets/img/banner-light.svg"
+          fetch_clean "https://www.gitskins.com/api/readme-reference/hero?username=lucandev&theme=neon&role=Product-minded%20developer&location=Building%20from%20the%20open%20web&v=readme-reference-2&mode=dark&pv=PJWvmY2LTIBKY-FJ" "assets/img/banner-dark.svg"
 
           # 2. Section Divider
-          fetch_clean "https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2&mode=light" "assets/img/divider-light.svg"
-          fetch_clean "https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2&mode=dark" "assets/img/divider-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2&mode=light&pv=PJWvmY2LTIBKY-FJ" "assets/img/divider-light.svg"
+          fetch_clean "https://www.gitskins.com/api/readme-reference/divider?username=lucandev&theme=neon&v=readme-reference-2&mode=dark&pv=PJWvmY2LTIBKY-FJ" "assets/img/divider-dark.svg"
 
           # 3. Living Identity Hero Portrait
-          fetch_clean "https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=${AVATAR}&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=light" "assets/img/living-hero-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=${AVATAR}&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=dark" "assets/img/living-hero-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=${AVATAR}&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=light&pv=PJWvmY2LTIBKY-FJ" "assets/img/living-hero-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/hero?username=lucandev&theme=aurora&avatar=${AVATAR}&variant=living-identity&label=Luca%20Nguy%E1%BB%85n&v=wow-living-identity-1&mode=dark&pv=PJWvmY2LTIBKY-FJ" "assets/img/living-hero-dark.svg"
 
           # 4. GitHub Stats
-          fetch_clean "https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1&mode=light" "assets/img/stats-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1&mode=dark" "assets/img/stats-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1&mode=light&pv=PJWvmY2LTIBKY-FJ" "assets/img/stats-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/stats?username=lucandev&theme=neon&v=neon-circuit-stats-1&mode=dark&pv=PJWvmY2LTIBKY-FJ" "assets/img/stats-dark.svg"
 
           # 5. Contribution Heatmap
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=light&style=snake&v=cinematic-snake-1" "assets/img/heatmap-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=dark&style=snake&v=cinematic-snake-1" "assets/img/heatmap-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=light&style=snake&v=cinematic-snake-1&pv=PJWvmY2LTIBKY-FJ" "assets/img/heatmap-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&style=aura&mode=dark&style=snake&v=cinematic-snake-1&pv=PJWvmY2LTIBKY-FJ" "assets/img/heatmap-dark.svg"
 
           # 6. Heatmap Visual With Avatar
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=light&style=snake&v=cinematic-snake-1" "assets/img/heatmap-avatar-light.svg"
-          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=dark&style=snake&v=cinematic-snake-1" "assets/img/heatmap-avatar-dark.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=light&style=snake&v=cinematic-snake-1&pv=PJWvmY2LTIBKY-FJ" "assets/img/heatmap-avatar-light.svg"
+          fetch_clean "https://www.gitskins.com/api/section/heatmap?username=lucandev&theme=neon&avatar=${AVATAR}&mode=dark&style=snake&v=cinematic-snake-1&pv=PJWvmY2LTIBKY-FJ" "assets/img/heatmap-avatar-dark.svg"
 
       - name: Commit and Push Changes
         run: |
